@@ -612,6 +612,80 @@ int main()
         {
             T1[a].output();
         }
+        cout<<""<<endl;
+        cout<<"1 - According to Seat class Record"<<endl;
+        cout<<"2 - Shut Down System"<<endl;
+        cout<<"Enter Your Choice :";
+        cin>>ch;
+        cout<<""<<endl;
+        if( ch == 1)
+        {
+             cout<<""<<endl;
+    cout<<"\t"<<"\t"<<"The Selected Data Entries of AC Passengers are ....."<<endl;
+    cout<<""<<endl;
+    for(int a = 0 ; a < 5 ; a++)
+    {
+        if(T1[a].getcls()=="AC"|| T1[a].getcls()=="ac" || T1[a].getcls()=="Ac"  ||  T1[a].getcls()=="aC")
+        {
+            cout<<" "<<endl;
+            T1[a].output();
+            cout<<" "<<endl;
+        }
+    }
+     cout<<"---------------------------"<<endl;
+     cout<<"\t"<<"\t"<<"The Selected Data Entries of Business Passengers are ....."<<endl;
+    cout<<""<<endl;
+    for(int a = 0 ; a < 5 ; a++)
+    {
+        if(T1[a].getcls()=="Business"|| T1[a].getcls()=="BUsiness" || T1[a].getcls()=="Business"  ||  T1[a].getcls()=="business")
+        {
+            cout<<" "<<endl;
+            T1[a].output();
+            cout<<" "<<endl;
+        }
+    }
+     cout<<"---------------------------"<<endl;
+     cout<<"\t"<<"\t"<<"The Selected Data Entries of LowerBusiness Passengers are ....."<<endl;
+    cout<<""<<endl;
+    for(int a = 0 ; a < 5 ; a++)
+    {
+        if(T1[a].getcls()=="LowerBusiness"|| T1[a].getcls()=="lowerBusiness" || T1[a].getcls()=="Lowerbusiness"  ||  T1[a].getcls()=="lowerbusiness")
+        {
+            cout<<" "<<endl;
+            T1[a].output();
+            cout<<" "<<endl;
+        }
+    }
+     cout<<"---------------------------"<<endl;
+     cout<<"\t"<<"\t"<<"The Selected Data Entries of Economy Passengers are ....."<<endl;
+    cout<<""<<endl;
+    for(int a = 0 ; a < 5 ; a++)
+    {
+        if(T1[a].getcls()=="Economy"|| T1[a].getcls()=="eConomy" || T1[a].getcls()=="ECOnomy"  ||  T1[a].getcls()=="economy")
+        {
+            cout<<" "<<endl;
+            T1[a].output();
+            cout<<" "<<endl;
+        }
+    }
+     cout<<"---------------------------"<<endl;
+     cout<<"\t"<<"\t"<<"The Selected Data Entries of VIP Class Passengers are ....."<<endl;
+    cout<<""<<endl;
+    for(int a = 0 ; a < 5 ; a++)
+    {
+        if(T1[a].getcls()=="VIP"|| T1[a].getcls()=="vip"|| T1[a].getcls()=="Vip"|| T1[a].getcls()=="vIP")
+        {
+            cout<<" "<<endl;
+            T1[a].output();
+            cout<<" "<<endl;
+        }
+    }
+        }
+        else if(ch == 2)
+        {
+             cout<<"---------------------------"<<endl;
+        cout<<"\t"<<"\t"<<"Thank you For Visiting Pakistan Railways ....";
+        }
         }
         else if(ch == 2 )
         {
@@ -842,6 +916,169 @@ int main()
         cout<<"\t"<<"\t"<<"The seat have been filled properly ...."<<endl;
         }
         cout<<" "<<endl;
+         cout<<" "<<endl;
+        cout<<"1 - Record of Passengers"<<endl;
+        cout<<"2 - According to Seat class Record"<<endl;
+        cout<<"3 - Shut Down System"<<endl;
+        cout<<"Enter Your Choice :";
+        cin>>ch;
+        cout<<""<<endl;
+          if(ch == 1)
+        {
+
+            system("color 04");
+            cout<<"\t"<<"\t"<<"-: Welcome To Pakistan Railways :-"<<endl;
+    cout<<""<<endl;
+            cout <<"\t"<<"\t"<< "=============Outputs of all day entries============" << endl;
+            cout<<" "<<endl;
+            for (int a = 0; a < 5; a++)
+        {
+            T1[a].output();
+        }
+        cout<<""<<endl;
+        cout<<"1 - According to Seat class Record"<<endl;
+        cout<<"2 - Shut Down System"<<endl;
+        cout<<"Enter Your Choice :";
+        cin>>ch;
+        cout<<""<<endl;
+        if( ch == 2)
+        {
+             cout<<""<<endl;
+    cout<<"\t"<<"\t"<<"The Selected Data Entries of AC Passengers are ....."<<endl;
+    cout<<""<<endl;
+    for(int a = 0 ; a < 5 ; a++)
+    {
+        if(T1[a].getcls()=="AC"|| T1[a].getcls()=="ac" || T1[a].getcls()=="Ac"  ||  T1[a].getcls()=="aC")
+        {
+            cout<<" "<<endl;
+            T1[a].output();
+            cout<<" "<<endl;
+        }
+    }
+     cout<<"---------------------------"<<endl;
+     cout<<"\t"<<"\t"<<"The Selected Data Entries of Business Passengers are ....."<<endl;
+    cout<<""<<endl;
+    for(int a = 0 ; a < 5 ; a++)
+    {
+        if(T1[a].getcls()=="Business"|| T1[a].getcls()=="BUsiness" || T1[a].getcls()=="Business"  ||  T1[a].getcls()=="business")
+        {
+            cout<<" "<<endl;
+            T1[a].output();
+            cout<<" "<<endl;
+        }
+    }
+     cout<<"---------------------------"<<endl;
+     cout<<"\t"<<"\t"<<"The Selected Data Entries of LowerBusiness Passengers are ....."<<endl;
+    cout<<""<<endl;
+    for(int a = 0 ; a < 5 ; a++)
+    {
+        if(T1[a].getcls()=="LowerBusiness"|| T1[a].getcls()=="lowerBusiness" || T1[a].getcls()=="Lowerbusiness"  ||  T1[a].getcls()=="lowerbusiness")
+        {
+            cout<<" "<<endl;
+            T1[a].output();
+            cout<<" "<<endl;
+        }
+    }
+     cout<<"---------------------------"<<endl;
+     cout<<"\t"<<"\t"<<"The Selected Data Entries of Economy Passengers are ....."<<endl;
+    cout<<""<<endl;
+    for(int a = 0 ; a < 5 ; a++)
+    {
+        if(T1[a].getcls()=="Economy"|| T1[a].getcls()=="eConomy" || T1[a].getcls()=="ECOnomy"  ||  T1[a].getcls()=="economy")
+        {
+            cout<<" "<<endl;
+            T1[a].output();
+            cout<<" "<<endl;
+        }
+    }
+     cout<<"---------------------------"<<endl;
+     cout<<"\t"<<"\t"<<"The Selected Data Entries of VIP Class Passengers are ....."<<endl;
+    cout<<""<<endl;
+    for(int a = 0 ; a < 5 ; a++)
+    {
+        if(T1[a].getcls()=="VIP"|| T1[a].getcls()=="vip"|| T1[a].getcls()=="Vip"|| T1[a].getcls()=="vIP")
+        {
+            cout<<" "<<endl;
+            T1[a].output();
+            cout<<" "<<endl;
+        }
+    }
+        }
+        else if(ch == 2)
+        {
+             cout<<"---------------------------"<<endl;
+        cout<<"\t"<<"\t"<<"Thank you For Visiting Pakistan Railways ....";
+        }
+        }
+        else if(ch == 2 )
+        {
+             cout<<""<<endl;
+    cout<<"\t"<<"\t"<<"The Selected Data Entries of AC Passengers are ....."<<endl;
+    cout<<""<<endl;
+    for(int a = 0 ; a < 5 ; a++)
+    {
+        if(T1[a].getcls()=="AC"|| T1[a].getcls()=="ac" || T1[a].getcls()=="Ac"  ||  T1[a].getcls()=="aC")
+        {
+            cout<<" "<<endl;
+            T1[a].output();
+            cout<<" "<<endl;
+        }
+    }
+     cout<<"---------------------------"<<endl;
+     cout<<"\t"<<"\t"<<"The Selected Data Entries of Business Passengers are ....."<<endl;
+    cout<<""<<endl;
+    for(int a = 0 ; a < 5 ; a++)
+    {
+        if(T1[a].getcls()=="Business"|| T1[a].getcls()=="BUsiness" || T1[a].getcls()=="Business"  ||  T1[a].getcls()=="business")
+        {
+            cout<<" "<<endl;
+            T1[a].output();
+            cout<<" "<<endl;
+        }
+    }
+     cout<<"---------------------------"<<endl;
+     cout<<"\t"<<"\t"<<"The Selected Data Entries of LowerBusiness Passengers are ....."<<endl;
+    cout<<""<<endl;
+    for(int a = 0 ; a < 5 ; a++)
+    {
+        if(T1[a].getcls()=="LowerBusiness"|| T1[a].getcls()=="lowerBusiness" || T1[a].getcls()=="Lowerbusiness"  ||  T1[a].getcls()=="lowerbusiness")
+        {
+            cout<<" "<<endl;
+            T1[a].output();
+            cout<<" "<<endl;
+        }
+    }
+     cout<<"---------------------------"<<endl;
+     cout<<"\t"<<"\t"<<"The Selected Data Entries of Economy Passengers are ....."<<endl;
+    cout<<""<<endl;
+    for(int a = 0 ; a < 5 ; a++)
+    {
+        if(T1[a].getcls()=="Economy"|| T1[a].getcls()=="eConomy" || T1[a].getcls()=="ECOnomy"  ||  T1[a].getcls()=="economy")
+        {
+            cout<<" "<<endl;
+            T1[a].output();
+            cout<<" "<<endl;
+        }
+    }
+     cout<<"---------------------------"<<endl;
+     cout<<"\t"<<"\t"<<"The Selected Data Entries of VIP Class Passengers are ....."<<endl;
+    cout<<""<<endl;
+    for(int a = 0 ; a < 5 ; a++)
+    {
+        if(T1[a].getcls()=="VIP"|| T1[a].getcls()=="vip"|| T1[a].getcls()=="Vip"|| T1[a].getcls()=="vIP")
+        {
+            cout<<" "<<endl;
+            T1[a].output();
+            cout<<" "<<endl;
+        }
+    }
+        }
+        else if(ch == 3)
+        {
+            cout<<"---------------------------"<<endl;
+        cout<<"\t"<<"\t"<<"Thank you For Visiting Pakistan Railways ....";
+        }
+    }
     }
     else if(ch == 2)
         {
@@ -873,3 +1110,4 @@ int main()
     return 0;
 }
 }
+
